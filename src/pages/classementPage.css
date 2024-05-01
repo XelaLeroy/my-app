@@ -1,0 +1,56 @@
+.header-classement ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.main {
+    margin : 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+.table {
+    display: table;
+    width: 80%;
+    margin: 0 auto;
+    background-color: grey;
+    margin: 30px auto;
+    border: 1px black solid;
+}
+
+
+.row {
+    display: table-row;
+    background-color: black;
+    color: white;
+}
+
+.cell {
+    display: table-cell;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+
+
+.fixed {
+    background-color: orange;
+}
+
+#Section\ Paloise .table-cell.fixed {
+    background-color: green;
+}
+
+@media screen and  (max-width:767px) {
+
+    .fixed {
+     width: 400px;    }
+}
+
+
+
+ 

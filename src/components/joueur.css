@@ -1,0 +1,37 @@
+.player-card{
+    background-color: greenyellow;
+    border-radius: 25px;
+    box-shadow: 5px 3px 15px green;
+
+}
+
+.player-card:hover{
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}
+
+
+.img-player{
+    width: 50%;
+}
+
+@media screen and (max-width :767px){
+    .player-card{
+        background-color: greenyellow;
+        border-radius: 0px;
+        box-shadow: 2px 1px 10px green;  
+  
+    }
+    .player_name{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    
+.img-player{
+    width: 50%;
+}
+}
+
+
+

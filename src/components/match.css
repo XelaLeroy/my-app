@@ -1,0 +1,41 @@
+.match-card { 
+    text-align: center;
+    padding: 20px;
+    margin: 20px 50px;
+    background: linear-gradient( #070707 30%, #797979 40%);
+    border-radius: 20px;
+    
+}
+
+.time-details {
+    color: white;
+    padding-bottom: 20px;
+}
+.match-details {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: center;
+    text-align: center;
+}
+
+
+.logo{
+    width: 60px;
+    height: auto;
+}
+
+@media screen and (max-width:767px) {
+
+    
+    
+    .logo{
+        width: 40px;
+    }
+
+    .match-details {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        align-items: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,54 @@
+.grid {
+    display : grid;
+    grid-template-columns: 8rem auto;
+}
+
+ .table-row {
+    display: table-row;
+}
+ .column {
+    display: table;
+}
+
+div[id="Section Paloise"] {
+    /* Styles à appliquer */
+    background-color: green;
+    color: white;
+    padding: 20px;
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+
+ .table-cell {
+    display: table-cell;
+    text-align: center;
+    padding: 20px 15px;
+    overflow-x: auto;
+
+ }
+
+ .table-cell.fixed.club {
+    position: sticky;  
+    left: 0;  
+    text-align: left;
+    z-index: 1;
+      }
+
+ .table-cell.fixed.rang {
+    position: sticky;
+    vertical-align: middle;
+    left: 0;
+    z-index: 2;
+    border-right: 1px solid #000; /* Ajout d'une bordure à droite pour empêcher le recouvrement */
+}
+
+ @media screen and (max-width : 767px) {
+
+    .table-cell.fixed.club {
+        position: sticky;  
+        left: 0;  
+        padding-left: 80px;
+        z-index: 1;
+          }
+    
+ }
+ 

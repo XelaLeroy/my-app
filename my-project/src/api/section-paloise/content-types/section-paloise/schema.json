@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_paloises",
+  "info": {
+    "singularName": "section-paloise",
+    "pluralName": "section-paloises",
+    "displayName": "Section Paloise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "PhotoMatch": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Intro": {
+      "type": "text"
+    },
+    "Title2": {
+      "type": "string"
+    },
+    "ContenuArticle": {
+      "type": "richtext"
+    }
+  }
+}

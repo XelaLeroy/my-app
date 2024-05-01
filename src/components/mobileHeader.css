@@ -1,0 +1,77 @@
+.mobileNav { 
+    display: none;
+}
+
+
+
+@media screen and (max-width:767px) {
+
+.mobileNav { 
+    display: block;
+    position: sticky;
+    top: 0;
+    height: 35px;
+    z-index: 5;
+    background-color: green;
+}
+
+.toggle-button {
+    position:fixed;
+    background-color: transparent;
+    right: 10px;
+    top: 5px;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+.mobileMenu.active {
+    display: block;
+    height: 100vh;
+    text-align: center;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    background: rgb(54,119,44);
+    background: linear-gradient(166deg, rgba(54,119,44,1) 0%, rgba(66,161,51,1) 100%);
+}
+
+
+
+.mobileMenu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    line-height: 130px;
+    height: 100%; /* Ajuster la hauteur du menu mobile */
+    margin: 0; /* Réinitialiser les marges */
+    padding: 0; /* Réinitialiser les rembourrages */
+}
+
+
+.mobileMenu ul li a {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+}

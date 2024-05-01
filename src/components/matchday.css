@@ -1,0 +1,77 @@
+.rounded-card {
+    width: 35%;
+   margin: 10px auto;
+   background-color: rgb(165, 164, 164);
+   border-radius: 25px;
+}
+
+.header-card {
+    display: grid;
+    grid-template-columns: auto auto; /* Deux colonnes, une pour chaque élément */
+    align-items: center; /* Centrer verticalement */
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border-radius: 25px 25px 0 0;
+}
+
+.header-card span {
+    text-align: center;
+}
+
+.card1 {
+    display: block;
+    justify-content: center;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: auto auto; /* Deux colonnes, une pour chaque élément */
+
+    text-align: center;
+    padding: 10px;
+}
+
+.more_details {
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.match {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 20px;
+}
+
+.team-home {
+    text-align: center;
+}
+
+.team-away {
+    text-align: center;
+}
+
+.team-home p{
+    margin: 0;
+}
+.team-away p{
+    margin: 0;
+}
+
+@media screen and (max-width:767px) {
+    .rounded-card {
+        width:90%;
+       margin: 10px auto;
+       background-color: rgb(165, 164, 164);
+       border-radius: 25px;
+    }
+
+    .match{
+        padding: 5px;
+    }
+}
+

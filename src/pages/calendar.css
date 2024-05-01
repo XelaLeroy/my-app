@@ -1,0 +1,9 @@
+.calendar-matchs {
+    width: 100%;
+    align-items: center;
+}
+
+.calendar h1{
+    text-align: center;
+    margin-bottom: 50px;
+}

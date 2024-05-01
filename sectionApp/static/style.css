@@ -1,0 +1,16 @@
+#image {
+    width: 150px;
+    height: auto;
+}
+
+#all_players {
+    display: flex;
+    flex-wrap: wrap;
+text-align: center;
+}
+
+#joueur {
+    padding-right: 50px
+    
+    ;
+}
